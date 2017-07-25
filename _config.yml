@@ -54,6 +54,7 @@ author:
   linkedin: movermeyer  # eg. daattali
   # xing: yourname      # eg. daattali
   stackoverflow: 6460914/michael-overmeyer  # eg. "6460914/michael-overmeyer"
+  bitbucket: movermeyer    # eg. daattali
   # snapchat: yourname  # eg. daattali
   # instagram: yourname # eg. daattali
   # youtube: yourlink   # eg. user/daattali or channel/daattali
@@ -74,6 +75,7 @@ footer-links-active:
   xing: false
   stackoverflow: true
   snapchat: false
+  bitbucket: true
   instagram: false
   youtube: false
   spotify: false

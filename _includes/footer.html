@@ -113,6 +113,17 @@
             </a>
           </li>
           {% endif %}
+          {% if site.author.bitbucket and site.footer-links-active.bitbucket %}
+          <li>
+            <a href="https://bitbucket.org/{{ site.author.bitbucket }}" title="Bitbucket">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">Bitbucket</span>
+            </a>
+          </li>
+          {% endif %}
           {% if site.author.snapchat and site.footer-links-active.snapchat %}
           <li>
             <a href="https://www.snapchat.com/add/{{ site.author.snapchat }}" title="Snapchat">
