@@ -24,7 +24,7 @@ description: The technical writings of Michael Overmeyer
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Open Source: "open-source.html"
+  Open Source: "open-source"
   # Resources:
     # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
