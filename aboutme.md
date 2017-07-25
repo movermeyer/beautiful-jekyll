@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle:
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Michael Overmeyer. I am a software developer living in Cambridge, Ontario, Canada.
+I specialize in solving problems for companies that are themselves doing interesting things with positive impact.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I've been developing software professionally since 2010. Over that time, I've been blessed to work on many interesting projects such as:
 
-What else do you need?
+* [Satellite tracking of all the world's ships](https://exactearth.com/)
+* [Military Helicopter instument panel UIs](https://gdmissionsystems.ca/)
+* [Air Traffic Control software](https://www.navcanada.ca)
 
-### My story
+I also [contribute to open source](https://movermeyer.com/open-source/).
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I'm currently [drawing the rest of the f-ing owl](https://www.youtube.com/watch?v=xQ0OB5tGyB8) and making commerce better for everyone (ie. happily employed at [Shopify](https://www.shopify.com/)).
