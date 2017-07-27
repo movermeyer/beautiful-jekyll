@@ -253,6 +253,12 @@ img {
   }
 }
 
+/* --- Open Source page --- */
+
+.os-platform-list a {
+    color: #404040;
+}
+
 /* --- Footer --- */
 
 footer {
