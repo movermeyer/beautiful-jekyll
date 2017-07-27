@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Michael's Blog
+title: Michael's Contact
 
 # Short description of your site
 description: The technical writings of Michael Overmeyer
@@ -54,7 +54,7 @@ author:
   # google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: movermeyer  # eg. daattali
   # xing: yourname      # eg. daattali
-  stackoverflow: 6460914/michael-overmeyer  # eg. "6460914/michael-overmeyer"
+  stackoverflow: 6460914/movermeyer
   bitbucket: movermeyer    # eg. daattali
   # snapchat: yourname  # eg. daattali
   # instagram: yourname # eg. daattali
