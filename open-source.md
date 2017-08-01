@@ -54,6 +54,7 @@ I contribute to Open Source projects. So far, it's just been little bits here an
 * [pyorbital](https://github.com/pytroll/pyorbital): [#6](https://github.com/pytroll/pyorbital/issues/6)
 * [ansible-vault](https://github.com/jhaals/ansible-vault): [Various fixes](https://github.com/jhaals/ansible-vault/commits?author=movermeyer)
 * [ansible-modules-hashivault](https://github.com/TerryHowe/ansible-modules-hashivault): [(Documentation)](https://github.com/TerryHowe/ansible-modules-hashivault/commit/a748049b2a5403507c3e84b24b44701ae5f9e9e5)
+* [Blackberry2Droid](https://github.com/davehope/Blackberry2Droid): [#2](https://github.com/davehope/Blackberry2Droid/pull/2) [#3](https://github.com/davehope/Blackberry2Droid/pull/3)
 
 ## Bugs Reported
 
