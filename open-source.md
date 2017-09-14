@@ -44,7 +44,7 @@ I contribute to Open Source projects. So far, it's just been little bits here an
 * [Ansible](https://www.ansible.com/): [#24545](https://github.com/ansible/ansible/issues/24545) [#24546](https://github.com/ansible/ansible/issues/24546)
 * [AtomLinter/linter-pyflakes](https://github.com/AtomLinter/linter-pyflakes): [(Minor)](https://github.com/AtomLinter/linter-pyflakes/commit/8c0a12478f138451c13fc32e0e3c5fe4116a947e)
 * [retype](https://github.com/ambv/retype): [#1](https://github.com/ambv/retype/issues/1) [#2](https://github.com/ambv/retype/issues/2)
-* [Construct](https://construct.readthedocs.io/en/latest/): [#360](https://github.com/construct/construct/issues/360) [#365](https://github.com/construct/construct/issues/365) [#372 (Documentation)](https://github.com/construct/construct/pull/372)
+* [Construct](https://construct.readthedocs.io/en/latest/): [#360](https://github.com/construct/construct/issues/360) [#365](https://github.com/construct/construct/issues/365) [#372 (Documentation)](https://github.com/construct/construct/pull/372) [#398](https://github.com/construct/construct/issues/398)
 * [pint](https://pint.readthedocs.io): [#387](https://github.com/hgrecco/pint/issues/387)
 * [pyhocon](https://github.com/chimpler/pyhocon): [#53](https://github.com/chimpler/pyhocon/issues/53)
 * [deepdiff](https://github.com/seperman/deepdiff): [(Documentation)](https://github.com/seperman/deepdiff/commit/10a117476c729a333b9b07f4d12c39adcb9c053c)
