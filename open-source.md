@@ -46,7 +46,7 @@ I contribute to Open Source projects. So far, it's just been little bits here an
 * [retype](https://github.com/ambv/retype): [#1](https://github.com/ambv/retype/issues/1) [#2](https://github.com/ambv/retype/issues/2)
 * [Construct](https://construct.readthedocs.io/en/latest/): [#360](https://github.com/construct/construct/issues/360) [#365](https://github.com/construct/construct/issues/365) [#372 (Documentation)](https://github.com/construct/construct/pull/372) [#398](https://github.com/construct/construct/issues/398)
 * [pint](https://pint.readthedocs.io): [#387](https://github.com/hgrecco/pint/issues/387)
-* [pyhocon](https://github.com/chimpler/pyhocon): [#53](https://github.com/chimpler/pyhocon/issues/53)
+* [pyhocon](https://github.com/chimpler/pyhocon): [#53](https://github.com/chimpler/pyhocon/issues/53) [#132](https://github.com/chimpler/pyhocon/issues/132) [#134](https://github.com/chimpler/pyhocon/issues/134) [#135](https://github.com/chimpler/pyhocon/issues/135) 
 * [deepdiff](https://github.com/seperman/deepdiff): [(Documentation)](https://github.com/seperman/deepdiff/commit/10a117476c729a333b9b07f4d12c39adcb9c053c)
 * [Cabot](https://github.com/arachnys/cabot): [Various](https://github.com/arachnys/cabot/issues?utf8=%E2%9C%93&q=author%3Amovermeyer%20)
 * [Evolus Pencil](https://github.com/evolus/pencil): [#329](https://github.com/evolus/pencil/pull/329)
