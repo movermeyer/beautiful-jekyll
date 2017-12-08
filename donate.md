@@ -10,4 +10,4 @@ If you are getting me a present, I'd appreciate a donation in my name to any of 
 
 Alternatively, if digital freedoms aren't interesting to you:
 
-* Anything on the list of [Give Well](https://www.givewell.org)'s [list of best charities](https://www.givewell.org/charities/top-charities), as measured by "most good" per dollar donated (currently, the [Against Malaria Foundation](https://www.againstmalaria.com/))
+* Anything on [Give Well](https://www.givewell.org)'s [list of best charities](https://www.givewell.org/charities/top-charities), as measured by "most good" per dollar donated (currently topped by the [Against Malaria Foundation](https://www.againstmalaria.com/))
