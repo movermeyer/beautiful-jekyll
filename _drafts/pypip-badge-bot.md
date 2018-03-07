@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building Bots to mend Broken Badges (or how to get your account suspended)"
-date:   2018-03-07 09:00:00 -0000
+date:   2018-03-08 09:00:00 -0000
 categories: python github badges bots
 ---
 
@@ -11,7 +11,7 @@ categories: python github badges bots
 
 ## Broken Badges!
 
-Recently I've been working on a side project that requires automatic interaction with a large number of GitHub projects. As part of testing that project, I noticed that there were a lot of badges that were broken.
+Recently I was working on a side project that required automatic interaction with a large number of GitHub projects. As part of testing that project, I noticed that there were a lot of badges that were broken.
 
 ![Screenshot of a GitHub repo's README, with both working and broken badges]({{ "/img/broken_badges.png" }})
 
