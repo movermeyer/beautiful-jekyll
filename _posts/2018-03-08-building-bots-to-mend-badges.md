@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building Bots to mend Broken Badges (or how to get your account suspended)"
+title:  "Building Bots to mend Broken Badges (or how to get your GitHub account suspended)"
 date:   2018-03-08 09:00:00 -0000
 categories: python github badges bots
 ---
