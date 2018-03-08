@@ -6,8 +6,14 @@ categories: python github badges bots
 ---
 
 
-**TL;DR:** Many badges were broken since they were using the shuttered pypi.in site. I wrote a bot that could fix these and automatically submit pull requests with the changes. And then I had my account suspended. **Do not make automatic unsolicited pull requests.**
+**TL;DR:** Many badges were broken since they were using the shuttered pypi.in site. I wrote a bot that could fix these and automatically submit pull requests with the changes. And then I had my GitHub account suspended. **Do not make automatic unsolicited pull requests.**
 
+## Disclaimer
+
+This post discusses the design decisions that went into a bot that I built to interact with the GitHub API. In the end, GitHub doesn't want you to do this kind of automation. I left the blog post as I had originally written it, but that is only because the ideas are applicable to any bot, not just ones that might violate Terms of Service 😉.
+
+
+------------------------------------------------------------
 
 ## Broken Badges!
 
@@ -23,13 +29,22 @@ Given that I already had downloaded a list of Python packages for my side projec
 
 Thankfully, [shields.io](https://shields.io/) is still operational and has a very similar API to what pypi.in offered. So the plan was to modify the existing badges to make use of the shields.io API instead.
 
-## Bot account?
+## Initial Development
 
-Given that this was my first time building a GitHub bot, I wondered whether I should be making the changes using my personal account, or a separate bot account. Some sites have special permissions or restrictions on bots, and will automatically ban accounts that do it wrong. Happily, GitHub doesn't care either way](https://help.github.com/articles/differences-between-user-and-organization-accounts/): they are happy as long as you stay within the rate limits (though it seems that they [weren't always that happy](https://www.wired.com/2012/12/github-bots/)).
+The code to do this is pretty straight forward. After doing a preliminary scan of the README's I had already downloaded (as part of another project), I would look for URLs that had that the pypip.in domain. Then I used Python's regular expression [`subn`](https://docs.python.org/3.6/library/re.html#re.subn) function to replace it with a shields.io URL.
+
+```
+PYPIP_REGEX = re.compile(r"http[s]?://pypip.in/([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?", flags=re.IGNORECASE)  # Based on https://stackoverflow.com/a/6041965
+new_readme, n = PYPIP_REGEX.subn(generate_shields_io_url_from_pypip_url), exisitng_readme)
+```
+
+The code that interacts with the GitHub API is where the bulk of the code was. I used the [PyGithub](https://pygithub.readthedocs.io/en/latest/introduction.html) library and it wasn't too bad (though I definitely needed to refer to the [official docs](https://developer.github.com/v3/) at times).
+
+(BTW: the code can be [found here](https://github.com/movermeyer/PyPipBadgeFixBot). I'm not going to talk much about the code, since the other parts of the project were more interesting. Please feel free to take a look)
 
 ## Testing
 
-Running a script to modify hundreds of GitHub repos is a scary thing. If you don't find this idea scary, please don't write GitHub bots.
+Running a script to modify hundreds of GitHub repos is a scary thing. If you don't find this idea scary, please don't write GitHub bots (**Post-Suspension Update**: actually don't write bots that do this at all).
 
 Even the smallest bug can cause you to break repos, piss off maintainers, and generally wreak havoc. You'd end up with egg on your face, and have to spend a long time trying to apologize and manually undo the mess.
 
@@ -120,7 +135,7 @@ Unfortunately, I never developed a proper fix for this last bug. I added some co
 
 ## Results + Feedback
 
-Overall, the results were very positive. The bot made pull requests against 1034 repositories. As of time of writing, 223 of them have been merged, while only 13 were closed (ie. rejected). The ones that were rejected seem to be for repositories that are no longer being maintained, and the maintainers simply closed the pull request by default. One maintainer sent me an email and requested that I add his projects to a blacklist (which I quickly obliged).
+Overall, the results were very positive. The bot made pull requests against 1034 repositories. As of time of writing, 228 of them have been merged, while only 13 were closed (ie. rejected). The ones that were rejected seem to be for repositories that are no longer being maintained, and the maintainers simply closed the pull request by default. One maintainer sent me an email and requested that I add his projects to a blacklist (which I quickly obliged).
 
 I got a lot of happy feedback from maintainers as they merged. I also received some actual emailed feedback from maintainers. Here are my favourites:
 
@@ -143,7 +158,7 @@ Paul has actually also created a bot, but his does the more important work of [w
 
 All in all, not bad for a quick side project. :)
 
-## GitHub account flagged
+## Update: GitHub account flagged
 
 A few days later, I was trying to run my script to get an updated count of merged pull requests and GitHub returned a "rate limit exceeded" response. This was odd, since I had written my code in such a way that respected their rate limits (at time of writing, 5000 requests/hour). When I manually logged into GitHub.com, I was greeted with the following banner:
 
@@ -160,14 +175,16 @@ I immediately contacted GitHub support and explained the situation. To their cre
 
 After promising not to make any more pull requests, they unflagged my account. All the previously created pull requests returned, and maintainers continued to merge them. 
 
-## Conclusion
+## Conclusion + Code
 
-This was a nice side project that taught me a lot. It allowed me to make a bunch of mistakes that I can learn from.
+This was a nice side project that taught me a lot. It allowed me to make a bunch of mistakes that I can learn from. If you're interested in the code, [you can find it here](https://github.com/movermeyer/PyPipBadgeFixBot).
 
 I fully understand GitHub's position on this. Unsolicited messaging can be annoying/disruptive. And while I might consider my pull requests beneficial (if a bit trivial), so might any other person consider their bot to be beneficial. Unsurpisingly, this is [not GitHub's first time dealing with bots](https://www.wired.com/2012/12/github-bots/).  
 
 As I briefly hinted at in the beginning of the post, this was meant to be the first step towards a much more complicated (and useful) bot that I was working on. Now it seems that project will have to be scrapped.
 
-As the size and number of the world's codebases increase, there is an increasing need to manage it in an automated fashion. Automation allows a single developer to have a noticeable impact on the entire ecosystem. Unfortunately, this doesn't preclude negative impacts, so we are forced to limit its use.
+As the size and number of the world's codebases increase, there is an increasing need to manage them in an automated fashion. Automation allows a single developer to have a noticeable impact on the entire ecosystem. Unfortunately, this doesn't preclude negative impacts, so we are forced to limit its use.
 
-I can't help but wonder how much better things could be if there was some organization that could vet bots and approve them for use. Admittedly, I don't have a workable solution yet, but I will continue to think, hope, and wish for a better future.
+I can't help but wonder how much better things could be. Perhaps if there was some organization that could vet bots and approve them for use. Then repo owners could opt into receiving messages by all the bots under the organization. Perhaps if there were enough bots and they were useful enough, you could get a large enough following to once again have a out-sized, positive impact. Admittedly, I don't have a workable solution yet, but I think that coming up with one could allow for wholesale improvements to the entire open-source ecosystem.
+
+In the mean time, I will continue to think, hope, and wish for a better future.
