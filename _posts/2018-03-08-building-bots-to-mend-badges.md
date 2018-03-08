@@ -48,7 +48,7 @@ Running a script to modify hundreds of GitHub repos is a scary thing. If you don
 
 Even the smallest bug can cause you to break repos, piss off maintainers, and generally wreak havoc. You'd end up with egg on your face, and have to spend a long time trying to apologize and manually undo the mess.
 
-As a result, testing was very important. I created a [TestProject](movermeyer/TestProject) within GitHub that I could use to test the GitHub manipulation code. I also wrote unit tests for the replacement of pypip URLs within the READMEs (though not enough of them, as I eventually found out).
+As a result, testing was very important. I created a [TestProject](https://github.com/movermeyer/TestProject/) within GitHub that I could use to test the GitHub manipulation code. I also wrote unit tests for the replacement of pypip URLs within the READMEs (though not enough of them, as I eventually found out).
 
 ## Incremental Rollout
 
