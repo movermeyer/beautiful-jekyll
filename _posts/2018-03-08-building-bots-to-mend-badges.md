@@ -167,7 +167,7 @@ A few days later, I was trying to run my script to get an updated count of merge
 My profile was "hidden", which meant a number of things:
 
 1. All the pull requests I had made disappeared. The merged code was obviously unaffected, but even the merged pull requests disappeared from the repos.
-1. My [personal site](movermeyer.com) went offline, as it is hosted using [GitHub Pages](https://pages.github.com/)
+1. My [personal site](https://movermeyer.com) went offline, as it is hosted using [GitHub Pages](https://pages.github.com/)
 
 I immediately contacted GitHub support and explained the situation. To their credit, the response came quickly:
 
