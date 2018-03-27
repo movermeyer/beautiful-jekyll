@@ -169,7 +169,7 @@ My profile was "hidden", which meant a number of things:
 1. All the pull requests I have ever made disappeared. The merged code was obviously unaffected, but even the merged pull requests disappeared from the repos.
 1. All the bug reports and issues I have ever made disappeared
 1. All my repos disappeared
-1. All the forks of my repos disappeared (As [GitHub forks are not real forks](https://www.niels-ole.com/ownership/2018/03/16/github-forks.html))
+1. All the forks of my private repos disappeared (As [GitHub forks of private repos are not real forks](https://www.niels-ole.com/ownership/2018/03/16/github-forks.html))
 1. My [personal site](http://movermeyer.com) went offline, as it is hosted using [GitHub Pages](https://pages.github.com/)
 
 It was a shocking and immediate reminder of just how much we rely on GitHub and other centralized services. A large chunk of my digital life had been erased. It was as if it had never existed. It was eerie to say the least.
