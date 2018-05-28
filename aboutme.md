@@ -9,7 +9,7 @@ I specialize in solving data problems for companies that are themselves doing in
 
 I've been developing software professionally since 2010. Over that time, I've been blessed to work on many interesting projects such as:
 
-* [Satellite tracking of all the world's shipping](https://exactearth.com/)
+* [Satellite tracking of all the world's ships](https://exactearth.com/)
 * [Miliatry Helicopter instument panel UIs](https://gdmissionsystems.ca/)
 * [Air Traffic Control software](https://www.navcanada.ca)
 
