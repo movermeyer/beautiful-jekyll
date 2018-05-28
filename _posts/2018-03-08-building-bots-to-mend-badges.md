@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building Bots to mend Broken Badges (or how to get your account suspended)"
+title:  "Building Bots to mend Broken Badges (or how to get your GitHub account suspended)"
 date:   2018-03-08 09:00:00 -0000
 categories: python github badges bots
 ---
@@ -48,7 +48,7 @@ Running a script to modify hundreds of GitHub repos is a scary thing. If you don
 
 Even the smallest bug can cause you to break repos, piss off maintainers, and generally wreak havoc. You'd end up with egg on your face, and have to spend a long time trying to apologize and manually undo the mess.
 
-As a result, testing was very important. I created a [TestProject](movermeyer/TestProject) within GitHub that I could use to test the GitHub manipulation code. I also wrote unit tests for the replacement of pypip URLs within the READMEs (though not enough of them, as I eventually found out).
+As a result, testing was very important. I created a [TestProject](https://github.com/movermeyer/TestProject/) within GitHub that I could use to test the GitHub manipulation code. I also wrote unit tests for the replacement of pypip URLs within the READMEs (though not enough of them, as I eventually found out).
 
 ## Incremental Rollout
 
@@ -166,8 +166,13 @@ A few days later, I was trying to run my script to get an updated count of merge
 
 My profile was "hidden", which meant a number of things:
 
-1. All the pull requests I had made disappeared. The merged code was obviously unaffected, but even the merged pull requests disappeared from the repos.
-1. My [personal site](movermeyer.com) went offline, as it is hosted using [GitHub Pages](https://pages.github.com/)
+1. All the pull requests I have ever made disappeared. The merged code was obviously unaffected, but even the merged pull requests disappeared from the repos.
+1. All the bug reports and issues I have ever made disappeared
+1. All my repos disappeared
+1. All the forks of my private repos disappeared (As [GitHub forks of private repos are not real forks](https://www.niels-ole.com/ownership/2018/03/16/github-forks.html))
+1. My [personal site](http://movermeyer.com) went offline, as it is hosted using [GitHub Pages](https://pages.github.com/)
+
+It was a shocking and immediate reminder of just how much we rely on GitHub and other centralized services. A large chunk of my digital life had been erased. It was as if it had never existed. It was eerie to say the least.
 
 I immediately contacted GitHub support and explained the situation. To their credit, the response came quickly:
 
