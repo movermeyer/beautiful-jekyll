@@ -3,7 +3,7 @@ layout: page
 title: Open Source
 ---
 
-I contribute to Open Source projects. So far, it's just been little bits here and there, fixing bugs as I find them in projects I use. You can find my contributions on the following platforms:
+I love to contribute to Open Source projects. Besides being a maintainer of a [top 1000 Python library](https://github.com/closeio/ciso8601), my contributions have mostly been little bits here and there, fixing bugs as I find them in projects I use. You can find my contributions on the following platforms:
 
 <div class="os-platform-list">
 <ul class="list-inline text-center">
@@ -38,6 +38,21 @@ I contribute to Open Source projects. So far, it's just been little bits here an
 </div>
 
 # Specific Projects
+
+## Libraries Written
+
+### ciso8601
+
+[ciso8601](https://github.com/closeio/ciso8601) is the world's fastest Python library for parsing [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) timestamps.
+I completely rewrote the existing ciso8601 library, creating version `2.0.0`. 
+
+As part of the rewrite I:
+
+* Fixed the interface to have consistent error handling (the most asked for issue)
+* Improved test coverage by automatically generating test cases for all valid formats.
+* Made it >65% faster
+
+It is now the fastest way to parse ISO 8601 in Python, by far!
 
 ## Bug Patches
 
