@@ -86,4 +86,5 @@ It is now the fastest way to parse ISO 8601 in Python, by far!
 * [ciso8601](https://github.com/closeio/ciso8601/): [#26](https://github.com/closeio/ciso8601/issues/26)
 * [pyfirebirdsql](https://github.com/nakagami/pyfirebirdsql): [#58](https://github.com/nakagami/pyfirebirdsql/issues/58) [#60](https://github.com/nakagami/pyfirebirdsql/issues/60)
 * [akka](http://akka.io/): [#13962](https://github.com/akka/akka/issues/13962)
+* [markdown-toc](https://github.com/AlanWalk/markdown-toc): [#50](https://github.com/AlanWalk/markdown-toc/issues/50)
 * Many, many, many more...
