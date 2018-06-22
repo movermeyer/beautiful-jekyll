@@ -5,6 +5,8 @@ date:   2018-06-22 12:40:00 -0000
 categories: github badges vulns security
 ---
 
+**TL;DR:** Badges are not magic. They are just image hotlinks, and therefore you need to be able to trust the third party who serves them.
+
 # Introduction
 
 Badges are those cute little colourful rectangles that you see at the top of many READMEs. They often display things like the current version of the software, number of downloads, [code coverage](https://coveralls.io/), [results of vulnerability scans](https://snyk.io/docs/badges/), [build status](https://docs.travis-ci.com/user/status-images/), etc.
