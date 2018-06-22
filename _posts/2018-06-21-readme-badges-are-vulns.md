@@ -47,7 +47,7 @@ In all of these cases, your users could be exposed to "bad stuff". We've actuall
 
 pypip.in went out of business and [all their badges broke](https://movermeyer.com/2018-03-08-building-bots-to-mend-badges/). Eventually a benevolent developer bought the domain and is now serving redirects to the [shields.io](https://shields.io/) badge service. The domain could have easily been bought by someone with malicious intents.
 
-A photographer was [tired of paying bandwidth costs](#website-defacement) and swapped out a politician's banner image with a photoshopped image of the politician having sex. Any time you 'hotlink' to an image hosted by a third party, you are fundamentally trusting them not to swap out the contents.
+<a name="website-defacement"></a>A photographer was [tired of paying bandwidth costs](#footnote-1) and swapped out a politician's banner image with a photoshopped image of the politician having sex. Any time you 'hotlink' to an image hosted by a third party, you are fundamentally trusting them not to swap out the contents.
 
 CircleCI recently changed [their badges](https://circleci.com/docs/2.0/status-badges/) to include [an advertisement that their 1.0 API is being sunsetted](https://discuss.circleci.com/t/add-way-to-clear-1-0-is-sunsetting-on-status-badge/23085). While this case was well intentioned, it could have easily been something less charitable. To their credit they realised their mistake and reverted back to the regular badges.
 
@@ -83,4 +83,4 @@ The open-source community at large is getting more aware of security risks throu
 
 ---
 
-* <a name="website-defacement"></a> *If you remember more about that incident with the photographer and the politician, I'd love to be able to link to the article. Here are [the details as I remember them](https://www.reddit.com/r/tipofmytongue/comments/8ss8r4/tomtnews_italian_politician_gay_sex_website/).*
+* [↑](#website-defacement)<a name="footnote-1"></a> *If you remember more about that incident with the photographer and the politician, I'd love to be able to link to the article. Here are [the details as I remember them](https://www.reddit.com/r/tipofmytongue/comments/8ss8r4/tomtnews_italian_politician_gay_sex_website/).*
