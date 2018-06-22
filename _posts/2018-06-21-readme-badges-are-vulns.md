@@ -83,4 +83,6 @@ The open-source community at large is getting more aware of security risks throu
 
 ---
 
+Thanks to Kevin Ulug for helping edit this post.
+
 * [↑](#website-defacement)<a name="footnote-1"></a> *If you remember more about that incident with the photographer and the politician, I'd love to be able to link to the article. Here are [the details as I remember them](https://www.reddit.com/r/tipofmytongue/comments/8ss8r4/tomtnews_italian_politician_gay_sex_website/).*
