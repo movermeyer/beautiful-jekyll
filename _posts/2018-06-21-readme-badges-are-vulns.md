@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "README badges are vulnerabilities"
-date:   2018-06-21 00:00:00 -0000
+date:   2018-06-22 12:40:00 -0000
 categories: github badges vulns security
 ---
 
