@@ -54,6 +54,27 @@ As part of the rewrite I:
 
 It is now the fastest way to parse ISO 8601 in Python, by far!
 
+### progress_tracker
+
+[progress_tracker](https://github.com/exactEarth/ProgressTracker) is a simple (yet flexible) way to add processing progress logging to your Python scripts.
+
+```python
+>>> from progress_tracker import track_progress
+>>> for _ in track_progress(list(range(1000)), every_n_records=100):
+...     continue
+...
+100/1000 (10.0%) in 0:00:00.000114 (Time left: 0:00:00.001026)
+200/1000 (20.0%) in 0:00:00.000274 (Time left: 0:00:00.001096)
+300/1000 (30.0%) in 0:00:00.000374 (Time left: 0:00:00.000873)
+400/1000 (40.0%) in 0:00:00.000473 (Time left: 0:00:00.000710)
+500/1000 (50.0%) in 0:00:00.000572 (Time left: 0:00:00.000572)
+600/1000 (60.0%) in 0:00:00.000671 (Time left: 0:00:00.000447)
+700/1000 (70.0%) in 0:00:00.000770 (Time left: 0:00:00.000330)
+800/1000 (80.0%) in 0:00:00.000868 (Time left: 0:00:00.000217)
+900/1000 (90.0%) in 0:00:00.000979 (Time left: 0:00:00.000109)
+1000 in 0:00:00.001086
+```
+
 ## Bug Patches
 
 * [Ansible](https://www.ansible.com/): [#24545](https://github.com/ansible/ansible/issues/24545) [#24546](https://github.com/ansible/ansible/issues/24546)
