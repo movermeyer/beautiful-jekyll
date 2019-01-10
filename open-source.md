@@ -54,6 +54,10 @@ As part of the rewrite I:
 
 It is now the fastest way to parse ISO 8601 in Python, by far!
 
+### backports.datetime_fromisoformat
+
+[backports.datetime_fromisoformat](https://pypi.org/project/backports-datetime-fromisoformat/) is a simple backport of Python 3.7's `datetime.fromisoformat` methods to earlier versions of Python 3.
+
 ### progress_tracker
 
 [progress_tracker](https://github.com/exactEarth/ProgressTracker) is a simple (yet flexible) way to add processing progress logging to your Python scripts.
