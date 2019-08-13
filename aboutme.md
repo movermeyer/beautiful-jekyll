@@ -15,4 +15,4 @@ I've been developing software professionally since 2010. Over that time, I've be
 
 I also [contribute to open source](https://movermeyer.com/open-source/).
 
-I'm currently available for hire. If you're a software company that is pushing the bounds of human capability [give me a shout](https://linkedin.com/in/movermeyer).
+I'm currently [drawing the rest of the f-ing owl](https://www.youtube.com/watch?v=xQ0OB5tGyB8) and making commerce better for everyone (ie. happily employed at [Shopify](https://www.shopify.com/)).
